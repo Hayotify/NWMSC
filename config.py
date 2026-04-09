@@ -21,7 +21,7 @@ class StreamSettings:
     ZENO_SERVER = "mainline.proxy.rlwy.net"
     ZENO_PORT = 54416
     ZENO_USERNAME = "source"
-    ZENO_MOUNT_POINT = "Namaste"
+    ZENO_MOUNT_POINT = "namaste"
     ZENO_PASSWORD = os.environ.get("ZENO_PASSWORD", "Sachin2005")
     ZENO_ENCODING = "MP3"  # or AAC
     MIN_SONG_DURATION = 30
@@ -61,7 +61,7 @@ class HighriseSettings:
 
 # Default Songs List
 DEFAULT_SONGS = [
-    "JadaL - I'm in Love with a Wali",
+    
     "JadaL - Yumain o Leila",
     "JadaL - Ana Bakhaf Min El Commit",
     "JadaL - Malyoun",
