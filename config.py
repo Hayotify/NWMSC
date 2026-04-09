@@ -17,12 +17,12 @@ class SystemFiles:
 @dataclass
 class StreamSettings:
     """Stream Settings"""
-    ZENO_STREAM_URL = "https://stream.zeno.fm/rtgshmfgkmtuv"
-    ZENO_SERVER = "link.zeno.fm"
-    ZENO_PORT = 80
+    ZENO_STREAM_URL = "http://mainline.proxy.rlwy.net:54416/Namaste"
+    ZENO_SERVER = "mainline.proxy.rlwy.net"
+    ZENO_PORT = 54416
     ZENO_USERNAME = "source"
-    ZENO_MOUNT_POINT = "rtgshmfgkmtuv"
-    ZENO_PASSWORD = os.environ.get("ZENO_PASSWORD", "CWfNWegR")
+    ZENO_MOUNT_POINT = "Namaste"
+    ZENO_PASSWORD = os.environ.get("ZENO_PASSWORD", "Sachin2005")
     ZENO_ENCODING = "MP3"  # or AAC
     MIN_SONG_DURATION = 30
     MAX_RETRY_ATTEMPTS = 3
@@ -48,9 +48,9 @@ class LogSettings:
 @dataclass
 class HighriseSettings:
     """Highrise Settings"""
-    BOT_TOKEN = os.environ.get("HIGHRISE_BOT_TOKEN", "3d811b2c88ccbccfc6958cfc15f784b99806acd5c024408d7e21ca38f6941c3d")
-    ROOM_ID = os.environ.get("HIGHRISE_ROOM_ID", "663da7935f9d75c3f42bf455")
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "Ayysun")
+    BOT_TOKEN = os.environ.get("HIGHRISE_BOT_TOKEN", "2c5785eaf24d491a39fdf4f605e2bcdfcbfa70180a2728857d696689af0c83aa")
+    ROOM_ID = os.environ.get("HIGHRISE_ROOM_ID", "69d75a048fef3c8e3afe0ad6")
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "harmanpreet_19")
     
     # Manual Moderators List - You can add usernames here directly
     # Example: MODERATORS = ["username1", "username2"]
